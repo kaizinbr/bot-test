@@ -51,7 +51,7 @@ def ig_pfp(url, username):
     mediaCount = post.mediacount
     print(mediaCount)
 
-    path = Path('igPics/' + username)
+    path = Path('/igPics/' + username)
     postNode = L.download_post(post=post, target=path)
     mediaArr = []
 
